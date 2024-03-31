@@ -1,0 +1,9 @@
+
+
+/* AUTHENTIFICATION */
+POST        /auth/{username}/{password}                         get user with jwt or 401
+
+/* USERS */
+GET         /users                                              list of users
+POST        /users/{full_name}/{username}/{password}/           create user
+
