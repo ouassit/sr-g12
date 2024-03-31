@@ -14,7 +14,6 @@ $baseUri = '/sr-g12/api';
 $method = $_SERVER["REQUEST_METHOD"];
 
 if(!isset($_GET['endpoint'])){
-    header("HTTP/1.1 404 Not Found");
     exit();
 }
 
